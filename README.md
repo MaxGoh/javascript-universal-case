@@ -19,8 +19,8 @@ Have you ever experience this awkwardness when your backend is returning you sna
 ```
 import universalCase from 'javascript-universal-case';
 
-universalCase.toCamelCase("snake_case") // snakeCase
-universalCase.toSnakeCase("snakeCase") // snake_case
+universalCase.toCamelCase("snake_case")  // "snakeCase"
+universalCase.toSnakeCase("snakeCase")  // "snake_case"
 ```
 
 ## Contributing
