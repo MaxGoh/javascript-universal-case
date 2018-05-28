@@ -6,11 +6,12 @@
   "author": "Max Goh <max@parally.sg>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "coveralls": "^3.0.1",
     "jest": "^23.0.1",
     "webpack": "^4.9.1"
   }
