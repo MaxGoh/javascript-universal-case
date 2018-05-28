@@ -5,9 +5,13 @@
   "repository": "git@github.com:MaxGoh/Universal-JS-Case.git",
   "author": "Max Goh <max@parally.sg>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "jest": "^23.0.1",
     "webpack": "^4.9.1"
   }
 }
