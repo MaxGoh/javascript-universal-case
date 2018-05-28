@@ -1,0 +1,13 @@
+{
+  "name": "javascript-universal-case",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "repository": "git@github.com:MaxGoh/Universal-JS-Case.git",
+  "author": "Max Goh <max@parally.sg>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.9.1"
+  }
+}
