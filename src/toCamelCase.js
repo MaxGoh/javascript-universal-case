@@ -1,13 +1,17 @@
 /**
- * toCamelCasel
+ * toCamelCase
+ * return givenParam in camelCase
  *
  * @param snakeCase
- * @returns {undefined}
+ * @returns {string}
  */
 module.exports = function (snakeCase) {
+  if (snakeCase !== undefined) {
+    return "";
+  }
+
   var snakeCaseRegex = /[_][a-z]/gm;
   return snakeCase.replace(snakeCaseRegex, function (match) {
-    console.log(match);
     return match.charAt(1).toUpperCase();
   });
 };
