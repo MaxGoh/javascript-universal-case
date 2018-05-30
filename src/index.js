@@ -4,4 +4,4 @@ var toCamelCase = require('./toCamelCase');
 module.exports = {
   toSnakeCase,
   toCamelCase
-}
+};
